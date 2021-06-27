@@ -1,0 +1,19 @@
+//QuerySet....
+
+
+//Postman
+postman to GET our api view, can only be seen when permissions are set to...
+REST_FRAMEWORK={
+    'DEFAULT_PERMISSION_CLASSES':[
+        # 'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.AllowAny', #allows anyone to access our endpoints and data
+   ]
+}
+
+
+
+
+installed coverage for testing
+---
+#to run the test
+coverage run --omit='*/venv/*' manage.py test 
